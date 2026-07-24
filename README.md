@@ -13,6 +13,7 @@ Contributions welcome — see [Contributing](#contributing). Listing is by relev
 - [Regulations](#regulations)
 - [Tools & Implementations](#tools--implementations)
 - [MCP Governance & Security Servers](#mcp-governance--security-servers)
+- [Trust Scoring & Reputation](#trust-scoring--reputation)
 - [Identity & Provenance](#identity--provenance)
 - [Reading](#reading)
 - [Contributing](#contributing)
@@ -59,6 +60,20 @@ Contributions welcome — see [Contributing](#contributing). Listing is by relev
 - [agentgraph](https://github.com/agentgraph-co/agentgraph) — trust verification and security scanning for third-party MCP servers with signed attestations (Ed25519/JWS).
 - [AgentValet](https://github.com/AgentValet/AgentValet) — identity/credential governance broker issuing scoped, short-lived credentials per agent, with audit log and approval gates.
 - [arkforge-mcp](https://github.com/ark-forge/arkforge-mcp) — third-party certifying proxy: signs any HTTP call with an independent Ed25519 signature, RFC 3161 timestamp, and Sigstore Rekor anchor.
+- [kakunin-mcp](https://github.com/kakunin-ai/kakunin-mcp) — compliance and identity: verify an agent's certificate scope, read its behavioral risk score, and append to an immutable audit trail. X.509 identity via AWS KMS; MiCA / EU AI Act aligned.
+- [agent-os (agentos-mcp-server)](https://github.com/imran-siddique/agent-os) — agent governance with policy enforcement, code safety verification, multi-model hallucination detection, and immutable audit trails.
+- [mcp-guardian](https://github.com/rudraneel93/mcp-guardian) — security/governance proxy: YAML policies (blocklists, rate limits, token budgets), OAuth 2.1/OIDC with RBAC, Prometheus metrics, and a formal STRIDE threat model.
+- [jamjet-policy](https://github.com/jamjet-labs/jamjet-policy) — MCP stdio interceptor applying one YAML policy file (block / require_approval / audit / budget cap) to tool calls, with a unified audit log across adapters.
+- [shield](https://github.com/AperionAI/shield) — local guardrail proxy that blocks destructive tool calls and adds MCP supply-chain protection (tool-catalog pinning, tool-poisoning and prompt-injection scanning), with approval gates and audit logging.
+
+## Trust Scoring & Reputation
+
+*A verified track record of behavior can become a portable reputation — a "credit score" for agents. Approaches vary in how the score is computed and how portable it is.*
+
+- [Nobulex trust score](https://github.com/arian-gogani/nobulex) — reputation derived from cryptographically signed action receipts; independently reproducible by any verifier from the receipt corpus. ([methodology](https://github.com/arian-gogani/nobulex/blob/main/docs/trust-capital-methodology.md))
+- [agent-trust-stack-mcp](https://github.com/alexfleetcommander/agent-trust-stack-mcp) — cryptographic provenance, bilateral blind reputation scoring, and tamper-evident logging; Python and TypeScript, with Bitcoin-anchored provenance chains.
+- [agentforge-trust-mcp](https://github.com/KOVY/agentforge-trust-mcp) — query an AgentForge Trust Score (0–100 across security, code health, behavioral audit, community trust, and EU compliance) for any MCP server before connecting.
+- [agentstamp](https://github.com/vinaybhosle/agentstamp) — trust intelligence: identity stamps, reputation scoring, a registry, and forensic audit trails.
 
 ## Identity & Provenance
 
