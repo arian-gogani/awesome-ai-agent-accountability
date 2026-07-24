@@ -15,6 +15,7 @@ Contributions welcome — see [Contributing](#contributing). Listing is by relev
 - [MCP Governance & Security Servers](#mcp-governance--security-servers)
 - [Trust Scoring & Reputation](#trust-scoring--reputation)
 - [Identity & Provenance](#identity--provenance)
+- [Research & Reports](#research--reports)
 - [Reading](#reading)
 - [Contributing](#contributing)
 
@@ -31,6 +32,7 @@ Contributions welcome — see [Contributing](#contributing). Listing is by relev
 
 - [OWASP Agentic Skills Top 10 — AST09: Missing Execution Receipts](https://github.com/OWASP/www-project-agentic-skills-top-10) — the accountability-gap risk class for agentic skills. The bilateral receipt pattern is its normative guidance ([PR #35](https://github.com/OWASP/www-project-agentic-skills-top-10/pull/35)); the concrete `action_ref` construction is in the solutions catalog ([PR #38](https://github.com/OWASP/www-project-agentic-skills-top-10/pull/38)).
 - [OWASP CheatSheetSeries](https://github.com/OWASP/CheatSheetSeries) — practical guidance including JCS canonicalization, cross-agent accountability, and regulatory mapping for agent receipts.
+- [ISO/IEC 42001](https://www.iso.org/standard/81230.html) — the AI management system (AIMS) standard; establishes requirements for governance, logging, and accountability of AI systems across their lifecycle.
 - [W3C Verifiable Credentials](https://www.w3.org/TR/vc-data-model-2.0/) & [Decentralized Identifiers (DIDs)](https://www.w3.org/TR/did-core/) — the identity layer agent accountability builds on top of.
 - [JCS — JSON Canonicalization Scheme (RFC 8785)](https://www.rfc-editor.org/rfc/rfc8785) — deterministic JSON serialization used to make signed records reproducible across implementations.
 - [Ed25519 (RFC 8032)](https://www.rfc-editor.org/rfc/rfc8032) — the signature scheme most receipt implementations use.
@@ -82,6 +84,13 @@ Contributions welcome — see [Contributing](#contributing). Listing is by relev
 - [Concordium](https://www.concordium.com/) — identity-focused approach using zero-knowledge credentials to verify a real party stands behind an agent.
 - [Sigstore](https://www.sigstore.dev/) — keyless signing and a transparency log (Rekor); widely used for software supply-chain provenance and applicable to agent artifacts.
 - [C2PA](https://c2pa.org/) — content provenance standard; relevant where agents produce or handle media.
+
+## Research & Reports
+
+- ["Auditable Agents"](https://arxiv.org/abs/2604.05485) — defines five dimensions of agent auditability and three mechanism classes (detect, enforce, recover) for keeping harmful agent actions answerable after deployment.
+- ["Right to History: A Sovereignty Kernel for Verifiable AI Agent Execution"](https://arxiv.org/abs/2602.20214) — argues individuals are owed a tamper-evident, independently verifiable record of every AI agent action run on their hardware; implemented as a Rust sovereignty kernel (PunkGo).
+- ["Verifiability-First Agents"](https://arxiv.org/abs/2512.17259) — cryptographic attestations, lightweight audit agents, and challenge-response protocols to detect and remediate misaligned behavior in autonomous LLM systems.
+- ["Creating Characteristically Auditable Agentic AI Systems"](https://dl.acm.org/doi/10.1145/3759355.3759356) — design characteristics for building agentic AI systems that are auditable by construction (Intelligent Robotics FAIR 2025).
 
 ## Reading
 
