@@ -94,6 +94,7 @@ Contributions welcome — see [Contributing](#contributing). Listing is by relev
 
 ## Reading
 
+- [The AI Agent Accountability Landscape](https://nobulex.com/ai-agent-accountability-landscape) — a one-page map of this whole space (identity, governance, evidence, trust scoring, standards).
 - [Why evidence, not just governance, for AI agents](https://nobulex.com/why)
 - [How to build a verifiable AI agent audit trail](https://nobulex.com/ai-agent-audit-trails)
 - [OWASP AST09: execution receipts for AI agents](https://nobulex.com/owasp-ast09-execution-receipts)
