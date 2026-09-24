@@ -91,6 +91,7 @@ Contributions welcome — see [Contributing](#contributing). Listing is by relev
 - ["Right to History: A Sovereignty Kernel for Verifiable AI Agent Execution"](https://arxiv.org/abs/2602.20214) — argues individuals are owed a tamper-evident, independently verifiable record of every AI agent action run on their hardware; implemented as a Rust sovereignty kernel (PunkGo).
 - ["Verifiability-First Agents"](https://arxiv.org/abs/2512.17259) — cryptographic attestations, lightweight audit agents, and challenge-response protocols to detect and remediate misaligned behavior in autonomous LLM systems.
 - ["Creating Characteristically Auditable Agentic AI Systems"](https://dl.acm.org/doi/10.1145/3759355.3759356) — design characteristics for building agentic AI systems that are auditable by construction (Intelligent Robotics FAIR 2025).
+- [Orca AI Incident Archive](https://github.com/Continuum-AI-Corp/Orca-AI-Incident-Archive) — open (CC BY 4.0) database of real-world AI agent security incidents; each record cites a primary source and states whether a victim was confirmed and whether the agent's involvement is confirmed, disputed, or unverified.
 
 ## Reading
 
