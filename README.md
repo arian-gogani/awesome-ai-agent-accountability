@@ -81,6 +81,7 @@ Contributions welcome — see [Contributing](#contributing). Listing is by relev
 
 *Identity answers "who is behind the agent" — the complementary half of accountability. ([why you need both](https://nobulex.com/ai-agent-identity-vs-accountability))*
 
+- [Know Your Agent](https://github.com/RishabhPande/know-your-agent) - Python reference implementation of Ed25519-signed, scoped and revocable agent credentials, attenuated delegation chains and a tamper-evident audit log, with local demos and toy benchmarks rather than production assurance.
 - [Concordium](https://www.concordium.com/) — identity-focused approach using zero-knowledge credentials to verify a real party stands behind an agent.
 - [Sigstore](https://www.sigstore.dev/) — keyless signing and a transparency log (Rekor); widely used for software supply-chain provenance and applicable to agent artifacts.
 - [C2PA](https://c2pa.org/) — content provenance standard; relevant where agents produce or handle media.
